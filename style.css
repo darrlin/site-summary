@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+
+body {
+    background: rgba(72, 72, 72, 1);
+    position: relative;
+    
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Prata', serif; */
+
+    font-family: 'Noto Sans Display', sans-serif;
+} 
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.table a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+    color: white;
+}
+
+#avatar{
+    width: 200px;
+    border-radius: 23px;
+    box-shadow: -5px -4px 15px rgb(26, 26, 26);
+}
+
+.info p {
+    color:rgb(207, 207, 207);
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.conteiner {
+    max-width: 1000px;
+    max-height: 100%;
+    margin: auto;
+
+    /* padding-top: 30px;*/
+
+    background: linear-gradient(180deg, rgba(255, 89, 199, 0.1988) 0%, rgba(48, 50, 233, 0.28) 100%);
+}
+
+@media (max-width:1200px) {
+    .conteiner{
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .conteiner{
+        max-width: 790px;
+    }
+}
+
+@media (max-width:767px) {
+    .conteiner{
+        max-width: none;
+    }
+}
+
+/* .social {
+    background-color: rgb(211, 144, 228);
+    padding: 15px 40px;
+    border: 5px solid red;
+    margin: 20px;
+} */
+
+.bg-gray {
+    background: rgba(196, 196, 196, 1);
+}
+
+.card {
+    margin: auto;
+    max-width: 900px;
+    height: 24%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color:gray;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact {
+    color: white;
+}
+
+.form-gr label {
+    display: block;
+}
+
+.form-gr input,
+.form-gr textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-gr {
+    width: 50%;
+}
+
+.row > .form-gr:first-child {
+    margin-right: 20px;
+}
+
+#text {
+    margin: auto;
+    max-width: 900px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.btn {
+    background: rgba(46, 46, 46, 0.856);
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
